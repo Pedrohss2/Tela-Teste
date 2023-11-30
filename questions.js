@@ -11,8 +11,8 @@ export default [
   {
     question:  "Qual o valor satisfaz essa conta 8 x ? =  72",
     answers: [
-      { option: "9", correct: false },
-      { option: "11", correct: true },
+      { option: "9", correct: true },
+      { option: "11", correct: false },
       { option: "7", correct: false },
       { option: "6", correct: false }
     ],
@@ -23,7 +23,7 @@ export default [
       { option: "412", correct: false },
       { option: "321", correct: false },
       { option: "512", correct: true },
-      { option: "222", correct: true },
+      { option: "222", correct: false },
     ],
   },
   {
