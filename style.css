@@ -70,3 +70,8 @@ button {
 .finish button {
   text-align: center;
 }
+
+.erro {
+  font-size: 20px;
+  color: red;
+}

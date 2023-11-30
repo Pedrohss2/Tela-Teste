@@ -5,6 +5,8 @@ const textFinish = document.querySelector(".finish span");
 const content = document.querySelector(".content");
 const contentFinish = document.querySelector(".finish");
 const btnRestart = document.querySelector(".finish button");
+const erro = document.querySelector(".erro");
+let valorInput = document.querySelector("nome");
 
 import questions from "./questions.js";
 
@@ -23,6 +25,10 @@ btnRestart.onclick = () => {
 function nextQuestion(e) {
   if (e.target.getAttribute("data-correct") === "true") {
     questionsCorrect++;
+  }
+  else {
+    erro.innerHTML = 'Infelizmemte você errou, passe para a próxima questão.'
+    erros++;
   }
 
   if (currentIndex < questions.length - 1) {

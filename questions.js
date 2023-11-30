@@ -1,34 +1,48 @@
 export default [
   {
-    question: "Quanto é 1 + 2?",
+    question: "Qual o resultado de 32 x 8?",
     answers: [
-      { option: "3", correct: true },
-      { option: "2", correct: false },
-      { option: "4", correct: false },
+      { option: "256", correct: true },
+      { option: "453", correct: false },
+      { option: "254", correct: false },
+      { option: "200", correct: false }
     ],
   },
   {
-    question: "Quanto é 5 x 2?",
+    question:  "Qual o valor satisfaz essa conta 8 x ? =  72",
     answers: [
       { option: "9", correct: false },
-      { option: "10", correct: true },
-      { option: "11", correct: false },
+      { option: "11", correct: true },
+      { option: "7", correct: false },
+      { option: "6", correct: false }
     ],
   },
   {
-    question: "Quanto é 10 x 8?",
+    question:"Realizar a conta sem o auxílio da calculadore: 925 - 413?",
     answers: [
-      { option: "800", correct: false },
-      { option: "90", correct: false },
-      { option: "80", correct: true },
+      { option: "412", correct: false },
+      { option: "321", correct: false },
+      { option: "413", correct: true },
+      { option: "222", correct: true },
     ],
   },
   {
-    question: "Quanto é 7 x 7?",
+    question: "Qual a raiz quadrada de 256?",
     answers: [
-      { option: "70", correct: false },
-      { option: "56", correct: false },
-      { option: "49", correct: true },
+      { option: "17", correct: false },
+      { option: "16", correct: false },
+      { option: "15", correct: true },
+      { option: "44", correct: false },
     ],
   },
+  {
+    question: "Qual é a área de um quadrado de 5cm de lado?",
+    answers: [
+      { option: "Não sei", correct: false },
+      { option: "25cm", correct: false },
+      { option: "25cm2", correct: true },
+      { option: "25", correct: false },
+    ],
+  },
+
 ];
