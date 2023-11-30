@@ -6,13 +6,13 @@ const content = document.querySelector(".content");
 const contentFinish = document.querySelector(".finish");
 const btnRestart = document.querySelector(".finish button");
 const erro = document.querySelector(".erro");
-let valorInput = document.querySelector("nome");
+let ponto = document.querySelector(".pontos");
 
 import questions from "./questions.js";
 
 let currentIndex = 0;
 let questionsCorrect = 0;
-
+let pontos = 0;
 btnRestart.onclick = () => {
   content.style.display = "flex";
   contentFinish.style.display = "none";
@@ -24,10 +24,12 @@ btnRestart.onclick = () => {
 
 function nextQuestion(e) {
   if (e.target.getAttribute("data-correct") === "true") {
+    pontos++;
+    ponto.innerHTML = pontos;
     questionsCorrect++;
   }
   else {
-    erro.innerHTML = 'Infelizmemte você errou, passe para a próxima questão.'
+    alert('Infelizmemte você errou, passe para a próxima questão.')
     erros++;
   }
 
