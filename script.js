@@ -45,7 +45,7 @@ function finish() {
   textFinish.innerHTML = `você acertou ${questionsCorrect} de ${questions.length}`;
   content.style.display = "none";
   contentFinish.style.display = "flex";
-  pontos.innerHTML = 0;
+  pontos = 0;
 }
 
 function loadQuestion() {
