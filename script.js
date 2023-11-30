@@ -24,7 +24,7 @@ btnRestart.onclick = () => {
 
 function nextQuestion(e) {
   if (e.target.getAttribute("data-correct") === "true") {
-    pontos++;
+    pontos += 10;
     ponto.innerHTML = pontos;
     questionsCorrect++;
   }
