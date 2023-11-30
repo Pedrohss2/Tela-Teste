@@ -22,7 +22,7 @@ export default [
     answers: [
       { option: "412", correct: false },
       { option: "321", correct: false },
-      { option: "413", correct: true },
+      { option: "512", correct: true },
       { option: "222", correct: true },
     ],
   },
@@ -30,8 +30,8 @@ export default [
     question: "Qual a raiz quadrada de 256?",
     answers: [
       { option: "17", correct: false },
-      { option: "16", correct: false },
-      { option: "15", correct: true },
+      { option: "16", correct: true },
+      { option: "15", correct: false },
       { option: "44", correct: false },
     ],
   },

@@ -75,3 +75,8 @@ button {
   font-size: 20px;
   color: red;
 }
+
+.pontuacao {
+  color: white;
+  font-weight: bold;
+}
