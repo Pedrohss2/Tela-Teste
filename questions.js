@@ -45,4 +45,39 @@ export default [
     ],
   },
 
+  {
+    question: "358 X 9 = ",
+    answers: [
+      { option: "3.456", correct: false },
+      { option: "3.222", correct: true },
+      { option: "4.223", correct: false },
+      { option: "1.222", correct: false },
+    ],
+  },
+
+  
+
+  {
+    question: "1.784-365 = ",
+    answers: [
+      { option: "1.419", correct: true },
+      { option: "1.420", correct: false },
+      { option: "1.328", correct: false },
+      { option: "1.284", correct: false },
+    ],
+  },
+
+
+
+  {
+    question: "Um terreno possui área igual a 196 m². Sabendo que esse terreno tem formato de um quadrado, então os seus lados possuem medida igual a:",
+    answers: [
+      { option: "A) 12m", correct: false },
+      { option: "B) 13m", correct: false },
+      { option: "C) 14", correct: true },
+      { option: "D) 17", correct: false },
+    ],
+  },
+
+  
 ];
